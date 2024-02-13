@@ -137,6 +137,7 @@ public class ifelse {
         x = ab.nextInt();
         y = ab.nextInt();
         r = ab.nextInt();
+        System.out.println("hey");
         if ((x >= r && x == y) && (y >= r && x == y)) {
             System.out.println("The point inside the circle");
         } else {
