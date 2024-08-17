@@ -11,8 +11,8 @@ public class secondLargestInArray {
         }
         int smx=Integer.MIN_VALUE;
         for(int i=0;i<arr.length;i++){
-            if(arr[i] != max){
-                smx=Math.max(smx,arr[i]);
+            if(arr[i] != max && arr[i]>smx){
+                smx=arr[i];
                
             }
              
